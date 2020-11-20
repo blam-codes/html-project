@@ -21,7 +21,10 @@
 				<img src="" alt="description of image">
 				<figcaption>Fig1.</figcaption>
 			</figure>
-	
+			<figure>
+				<img src="" alt="description of image">
+				<figcaption>Fig1.</figcaption>
+			</figure>
 		<div> 
 			<p>text</p>
 		</div>
