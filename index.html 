@@ -3,33 +3,51 @@
 	<title>Bubble Tea site</title>
 </head>
 <body>
-	<div class="topnav">
-		<img src="" alt="logo" style="width:600px; height:400px"/>
-		<a class="active" href=#home">Home</a>
-		<a href=#news">News</a>
-		<a href=#about">About</a>
-		<a href=#contact”>Contact</a>
-	</div
-	<div>
-		<img src="" alt="description of image">
-	</div>
-	<div> 
-		<p>text</p>
-	</div>
-    <div>
-		<p>text</p>
-	</div>
-	<div>
-		<img src="" alt="description of image"/>
-	</div>
-	<div>
-		<p>Text</p>
-		<button>More</button>
-	</div>
-	<footer>
-		<a href=#copyright">copyright 2022</a>
-		<a href=#terms">Terms of Conditions</a>
-		<a href=#contact">Contact Us</a>
-	</footer>
+	<h1>Hello World</h1>
+	<nav>
+		<main>
+			<div class="topnav">
+				<ul>
+					<li><img src="" alt="logo" style="width:600px; height:400px"/></li>
+					<li><a class="active" href=#home">Home</a></li>
+					<li><a href=#news">News</a></li>
+					<li><a href=#about">About</a></li>
+					<li><a href=#contact”>Contact</a></li>
+				</ul>
+			</div>
+	</nav>
+			<section>
+			<figure>
+				<img src="" alt="description of image">
+				<figcaption>Fig1</figcaption>
+			</figure>
+			<figure>
+				<img src="" alt="description of image">
+				<figcaption>Fig2</figcaption>
+			</figure>
+		<div> 
+			<p>text</p>
+		</div>
+    	<div>
+			<p>text</p>
+		</div>
+		<figure>
+			<img src="" alt="description of image"/>
+			<figcaption>Fig2</figcaption>
+		</figure>
+		</div>
+		</section>
+		<div>
+			<p>Text</p>
+			<button>More</button>
+		</div>
+		</main>
+		<footer>
+			<ul>
+				<li><a href=#copyright">copyright 2022</a></li>
+				<li><a href=#terms">Terms of Conditions</a></li>
+				<li><a href=#contact">Contact Us</a></li>
+			</ul>
+		</footer>
  </body>
 </html>
