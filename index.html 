@@ -19,11 +19,11 @@
 			<section>
 			<figure>
 				<img src="" alt="description of image">
-				<figcaption>Fig1.</figcaption>
+				<figcaption>Fig1</figcaption>
 			</figure>
 			<figure>
 				<img src="" alt="description of image">
-				<figcaption>Fig1.</figcaption>
+				<figcaption>Fig2</figcaption>
 			</figure>
 		<div> 
 			<p>text</p>
