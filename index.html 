@@ -26,6 +26,18 @@
 		<p>Text</p>
 		<button>More</button>
 	</div>
+	<table>
+		<tr>
+			<th>Text</th>
+			<th>Text</th>
+			<th>Text</th>
+		</tr>	
+		<tr>
+			<td>text</td>
+			<td>text</td>
+			<td>text</td>
+		</tr>
+	</table>
 	<footer>
 		<a href=#copyright">copyright 2022</a>
 		<a href=#terms">Terms of Conditions</a>
