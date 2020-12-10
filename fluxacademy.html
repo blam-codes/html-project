@@ -1,6 +1,30 @@
 <!DOCTYPE html>
 <head>
 <title>Flux Academy</title>
+    <style>
+        body {
+            margin: 0;
+        }
+        .container {
+         padding: 1%;
+            box-sizing:border-box;
+            
+    }
+        .header {
+            height: 100px;
+            text-align:center;
+    }
+
+        .left-col, .right-col {
+        width: 25%;
+        float: left;
+    }
+        .center-col {
+            width:50%;
+            float:left;
+        }
+
+</style>
 </head>
 <body>
     <img src="">
@@ -95,41 +119,43 @@
         <p>Start learning with Ryan's free email course, High-Value WEb Designer Secrets. Sign up and discover the 3 most important lessons he learned as a freelance web designer</p>
         <br>
         <form>
-            <input type="text" name="first name">
-            <input type="text" name= "last name">
+            <input type="text" name="first name" placeholder="First name">
+            <input type="text" name= "your email" placeholder="Email">
             <button>Start my free course now!</button>
         </form>
         <a href="url">How we protect and manage your data</a>
         <img src="" alt="pattern triangle">
     </div>
-    <div>
+    <div class="header">
         <h3>EXPERT RESOURCES FOR WEBSITE DESIGNERS</h3>
-        <div>
-            <img src="" alt="picture of ABC letters">
-            <h3>WHY IS TYPOPGRAPHY IMPORTANT IN GRAPHIC DESIGN</h3>
-            <p>The Importance of typogrpahy in graphic design cannot be overstated.Typography contribues to legibility, hierarchy, and brand recognition. Let's explore how to effectively use typography in graphich design to achieve your objectives</p>
-            <form action="url">
-                <button type="submit">Read more</button>
-            </form>
-        </div>
-        </div>
-        <div>
-            <img src="" alt="a green checkmark in one box and an x in a redbox">
-            <h3>WEBFLOW VERSUS WORDPRESS: WHICH ONE IS BETTER?</h3>
-            <P>39% of all websites on the Internet uses WordPress. While it may be a familar platform, there are better solutions out there for creating websites. In this article, we'll dive deep into the difference between WordPress and Webflow</p>
-            <form>
-                <button type="submit" name="Read more"></button>
-            </form>
-        </div>
-        <div>
-            <img src="" alt="">
-            <!-- add description for image -->
-            <h3>HOW TO DO WEB DESIGN WITHOUT CODING</h3>
+    </div>
+    <div class="container">
+        <div class="left-col">
+            <img src="" alt="picture of greater and less than symbol with a line tilting to right between them">
+            <h5>HOW TO DO WEB DESIGN WITHOUT CODING</h5>
             <p>It's the ultimate question. Can you become a web designer without learning how to  code? The short answer is yes. In this article, we'll dive into the best ways to approach how you can do web design without coding.</p>
-            <form>
-                <button type="submit" name="Read more"></button>
-            </form>
+    </div>
+    <div class="container">
+        <div class="center-col">
+            <img src="" alt="a green checkmark in one box and an x in a red box">
+            <h5>WEBFLOW VERSUS WORDPRESS: WHICH ONE IS BETTER?</h5>
+            <p>39% of all websites on the Internet uses WordPress. While it may be a familiar platform, there are better solutions out there for creating websites. In this article, we'll dive deep into the difference between WordPress and Webflow</p>
+        
         </div>
+
+
+    </div>
+    <div class="container">
+        <div class="right-col">
+            <img src="" alt="picture of ABC letters">
+            <h5>WHY IS TYPOPGRAPHY IMPORTANT IN GRAPHIC DESIGN?</h5>
+            <p>The Importance of typograhy in graphic design cannot be overstated.Typography contributes to legibility, hierarchy, and brand recognition. Let's explore how to effectively use typography in graphic design to achieve your objectives</p>
+        </div>
+
+    </div>
+    </div>
+    
+        
           
            
         
