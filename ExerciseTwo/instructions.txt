@@ -1,0 +1,23 @@
+Instructions:
+
+For this exercise, go into exercise.html.
+
+=================
+In order to begin working on this, fetch this branch from the origin.
+Then fork a branch from origin/Exercise29093292349ALDKJFOD.  Do not fork from main.
+Call the branch: Exercise29093292349ALDKJFOD-answer
+Make your changes.
+Create your pull request to Exercise29093292349ALDKJFOD branch for this change.  Do not create your pull request to main.
+=================
+
+Notes:
+- This exercise focuses on:
+   - indentation
+- To indent or un-indent an entire block of code to the left or right, do not do each line one-by-one.  Instead, simply highlight the entire block and then...
+    1. to un-indent the entire block to the left: hold down SHIFT, and while holding SHIFT, press tab, 
+    2. , to tab the entire block to the right: press tab
+- If you get stuck and need to re-start, in the terminal use this command
+    
+    git restore exercise.html
+
+    This command reverts your changes in your working directory to what it was before.  You can also find this command when you type "git status" and in the "Changes not staged for commit" list, you will see this as the command to use to discard changes in your working directory.
