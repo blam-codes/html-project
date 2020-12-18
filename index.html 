@@ -39,7 +39,7 @@
 		</section>
 		<div>
 			<p>Text2</p>
-			<button>More</button>
+			<button style="color:green;>More</button>
 		</div>
 		</main>
 		<footer>
