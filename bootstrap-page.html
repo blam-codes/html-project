@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<head>
+    <title>Bootstrap Page</title>
+    <style>
+        .container {
+            float: left;
+            width: 50%;
+        }
+        .container-2 {
+            float: right;
+            width: 50%;
+        }
+        .carbon-ad {
+            float: left;
+            width: 100%;
+            border: 3px;
+        }
+        .container-3 {
+            float: none;
+            width: 50%;
+        }
+        ul {
+            list-style-type: none;
+        }
+        li {
+            display: inline;
+        }
+        .button {
+            display: linline;
+        }
+        .footer {
+            width: 25%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <ul>
+                <li><a href="#logo">Logo</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#Docs">Docs</a></li>
+                <li><a href="#Examples">Examples</a></li>
+                <li><a href="#Icons">Icons</a></li>
+                <li><a href="#Themes">Themes</a></li>
+                <li><a href="#Blog">Blog</a></li>
+                <li><a href="#Github">Github icon</a></li>
+                <li><a href="#Twitter">Twitter icon</a></li>
+                <li><a href="#Open-Collective">Open Collective icon</a></li>
+                <li><button type="button">Download</button></li>                
+            </ul>
+        </nav>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="column">
+                <h1>Build fast, responsive sites with Bootstrap</h1>
+                <p>Quickly design and customize responsive mobile-first sits with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+                <div>
+                    <button type="button">Download Examples</button>
+                    <button type="button">Download source code</button>
+                </div>
+                <div>
+                    <p>Currently v5.0.0-beta1</p>
+                </div>
+                <!-- previous release should be on the same line as above paragraph -->
+                <a href="#previous-release">previous release</a>                            
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="column">
+                <img src="url" alt="image of bootstrap empty pages">
+                <!-- logo overlaps previous image -->
+                <img src="logo" alt="image of bootstrap logo">
+            </div>
+        </div>
+    </div>
+    <div class="carbon-ad">
+        <article>
+            <img src="url" alt="image of mailchimp monkey wtih yellow background">
+            <p>Get the data you need to create campaigns that help grow sales.</p>
+            <p>ads via Carbon</p>
+        </article>
+    </div>    
+    <div class="container">
+        <div class="row">
+            <div class="column">
+                <img src="url" alt="green box with greater and lesser signs">
+                <h2>Installation</h2>
+                <h4>Install Bootstrap’s source Sass and JavaScript files via npm, Composer, or Meteor.</h4>
+                <p>Package managed installs don’t include documentation or our full build scripts. You can also use our npm template repo to quickly generate a Bootstrap project via npm.</p>
+                <button type="button">Read installation docs</button>
+            </div>
+        </div>
+    </div>
+    <div class="container-3">
+        <!-- grey border around the two <p> -->
+        <div class="row">
+            <div class="column">
+                <!-- both <p> have a button to the right -->
+               <p>$ npm install bootstrap@next</p>
+               <p>$ gem install bootstrap -v 5.0.0.beta1 </p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="column">
+                <img src="url" alt="blue box with a white cloud">
+                <h2>jsDelivr</h2>
+                <!-- jsDeliver at end of <h4> is a link- have to use css -->
+                <h4>When you only need to include Bootstrap’s compiled CSS or JS, you can use jsDelivr</h4>
+                <p>Package managed installs don’t include documentation or our full build scripts. You can also use our npm template repo to quickly generate a Bootstrap project via npm.</p>
+                <button type="button">Explore the docs</button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <!-- grey border around the first two <p> and another border aound the last two <p>-->
+        <div class="row">
+            <div class="column">
+                <!-- both <p> have a button to the right -->
+                <!-- add a class so links do not open but can have starting and ending tags as normal text -->
+               <p>CSS only</p>
+               <p>link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous"</p>
+               <p>JavaScript Bundle with Popper</p>
+               <p>script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">script</p>
+            </div>
+        </div>
+    </div>
+    <div class="container-3">
+        <div class="row">
+            <div class="column">
+                <img src="url" alt="purple box with white circle and a square that is missing one side">
+                <h2>Bootstrap Icons</h2>
+                <h4>For the first time ever, Bootstrap has its own open source SVG icon library, designed to work best with our components and documentation.</h4>
+                <p>Bootstrap Icons are designed to work best with Bootstrap components, but they’ll work in any project. They’re SVGs, so they scale quickly and easily, can be implemented in several ways, and can be styled with CSS.</p>
+                <button type="button">Get Bootstrap Icons</button>
+            </div>
+        </div>
+    </div>
+    <div class="container-2">
+        <div class="row">
+            <div class="column">
+                <img src="#" alt="picture of different bootstrap icons">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="column">
+                <img src="#" alt="red box with white tear drop">
+                <h1>Official Themes</h1>                
+                <h4>Take Bootstrap to the next level with premium themes from the<a href="https://themes.getbootstrap.com/">official Bootstrap Themes marketplace</a></h4>
+                <p>Themes are built on Bootstrap as their own extended frameworks, rich with new components and plugins, documentation, and powerful build tools.</p>
+                <button type="button">Browse themes</button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="column">
+                <img src="#" alt="picture of different bootstrap themes">
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer container">
+            <div class="row">
+                <div class="column">
+                    <ul>
+                        <li><a href="#Github">Github</a></li>
+                        <li><a href="#Twitter">Twitter</a></li>
+                        <li><a href="#Examples">Examples</a></li>
+                        <li><a href="#About">About</a></li>
+                    </ul>                
+                </div>    
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="column">
+                    <p>Designed and built with all the love in the world by the Bootstrap team with the help of our contributors.Currently v5.0.0-beta1. Code licensed MIT, docs CC BY 3.0.</p>
+                </div>
+            </div>
+        </div>        
+    </footer>        
+</body>
