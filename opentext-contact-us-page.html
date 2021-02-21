@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Opentext Contact Us</title>
+        <style>
+            container {
+                max-width: 1200px;
+            }
+            .row {
+                clear: float;
+            }
+            .column {
+                width: 25%;
+                float: right;
+            }
+            ul {
+                list-style-type: none;
+            }
+            li {
+                display: inline;
+            }
+            li a {
+                display: inline;
+            }
+            .col-6 {
+                width: 60%;
+                float: left;    
+            }
+            form {
+                clear: both;
+            }
+        </style>
+        <script>
+            console.log("Hello World!")
+        </script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="column">
+                    <nav>
+                        <ul>
+                            <li><a href="#Contact">Contact</a></li>
+                            <li><a href="#Global">Global</a></li>
+                            <li><a href="#SignIn">Sign In</a></li>
+                            <li><a href="#Search">Search</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-6">
+                    <ul>
+                        <li><a href="#Home">OpenText</a></li>
+                        <li><a href="#Products">Products & Solutions</a></li>
+                        <li><a href="#Industries">Industries</a></li>
+                        <li><a href="#Services">Services</a></li>
+                        <li><a href="#Support">Support</a></li>
+                        <li><a href="#Resources">Resources</a></li>
+                    </ul>
+                </div>        
+                <form action="/action-page.php">
+                    <label for="inquiry">Inquiry type</label><br/>
+                    <select>
+                        <option value="" disabled selected hidden>-- Please select --</option>
+                        <option value="general">General inquiries</option>
+                        <option value="customer">Customer support</option>
+                        <option value="adoption">Adoption & Learning Services</option>
+                        <option value="partners">Partners</option>
+                        <option value="professional">Professional Services</option>
+                        <option value="sales">Sales</option>
+                    </select>
+                    <br/>   
+                    <label for="email">Email address</label>
+                    <br/>   
+                    <input type="text" id="email" name="Email"><br/>
+                    <label for="fname">First name</label>
+                    <br/>
+                    <input type="text" id="fname" name="fname">
+                    <br/>
+                    <label for="lname">Last name</label>
+                    <br/>
+                    <input type="text" id="lname" name="lname">
+                    <br/>
+                    <label for="bphone">Business phone</label>
+                    <br/>
+                    <input type="text" id="bphone" name="bphone">
+                    <br/>
+                    <label for="company">Company</label>
+                    <br/>
+                    <input type="text" id="company" name="company">
+                    <br/>
+                    <label for="title">Title</label>
+                    <br/>
+                    <input type="text" id="title" name="title">
+                    </br>   
+                    <label for="industry">Industry</label><br/>
+                    <select>
+                        <option value="" disabled selected hidden>-- Please select --</option>
+                        <option value="administrative">Administrative & Support Services</option>
+                        <option value="aerospace">Aerospace</option>
+                        <option value="agriculture">Agriculture, Forestry, Fishing & Hunting</option>
+                        <option value="automotive">Automotive</option>
+                        <option value="banking">Banking</option>
+                        <option value="chemical">Chemicals</option>
+                        <option value="consumer">Consumer Goods</option>
+                        <option value="data">Data Processing & Intelligence</option>
+                        <option value="defense">Defense & Intelligence</option>
+                        <option value="education">Education</option>
+                    </select>
+                    <br/>
+                    <label for="country">Country</label>
+                    <br/>
+                    <select>
+                        <option value="" disabled selected hidden>--Please select --</option>
+                        <option value="afghanistan">Afghanistan</option>
+                        <option value="alalnd">Alalnd island</option>
+                        <option value="albania">Albania</option>
+                        <option value="algeria">Algeria</option>
+                        <option value="samoa">American Samoa</option>
+                    </select>
+                    <br/>
+                    <p>How can we help?</p> 
+                    <textarea rows="4" cols="60" name="comment" form="usrform"></textarea><br/>   
+                    <input type="submit" value="Submit">
+                </form>                                                                                
+            </div>
+        </div>        
+    </body>
+</html>
+
