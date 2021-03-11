@@ -1,4 +1,27 @@
-
+nav {
+    width: 100%;
+    overflow: hidden;
+    background-color:black;
+}
+.dropdown {
+    display: none;
+    position: absolute;
+    float: left;
+    overflow: hidden;
+}
+ul {
+    list-style-type: none;
+    display: inline-block;
+}
 .blackberry-button {
     background-color: pink;
+}
+.nav-list-item {
+   display: inline-block;
+}
+li a {
+    display: inline-block;
+}
+a {
+    color: white;
 }
