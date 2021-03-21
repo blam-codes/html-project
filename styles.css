@@ -16,7 +16,7 @@ body {
 }
 .navbar {
     width: 100%;
-    overflow: hidden;
+    
     background-color: black;
     font-family: Arial;
 }
@@ -88,9 +88,7 @@ footer {
 }
 .col-5 {
     width: 20%;
-    float: left;
-    margin-left: 20px;
-    display: inline-block;
+    float: left;   
 }
 li {
     display: inline-block;
