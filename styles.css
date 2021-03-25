@@ -1,5 +1,18 @@
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+.container-fluid {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
 .container {
-    max-width: 1200px;
+    position: relative;
+    text-align: center;
 }
 .row {
     clear: both;
@@ -8,24 +21,26 @@
     width: 25%;
     float: left;
 }
-body {
-    margin: none;
-}
 .col-10 {
     width: 100%
 }
 .navbar {
     width: 100%;
-    
+    overflow: hidden;    
     background-color: black;
     font-family: Arial;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .navbar a {
-    float: left;
+    float: left;t
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+}
+a {
+    text-transform: capitalize;
 }
 .dropdown {
     float: left;
@@ -60,20 +75,27 @@ body {
     float: right;
 }
 .hero-text {
+    display: block;
     position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translate (-50%, -50%);
+    top: 30%;
+    left: 20%;
+    margin-left: auto;
+    margin-right: auto;
     font-size: 22px;
+    width: 50%;
+    color: lgiht grey;
+    text-align: center;
 }
 .btn {
-    position: absolute;
-    top: 40%;
-    left: 50%;
+    position: absolute;   
+    margin-left: auto;
+    margin-right: auto;   
     padding: 12px 20px;
     border-radius: 3px;
     text-align: center;
     color: blue;
+    top: 40%;
+    font-size: 12px;
 }
 .col-2 {
     width: 50%;
@@ -93,5 +115,6 @@ footer {
 li {
     display: inline-block;
 }
-
-    
+.title-line {
+    font-style: italic;
+}    
