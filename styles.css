@@ -9,6 +9,7 @@ html,body {
     width: 100%;
     margin: 0px;
     padding: 0px;
+    position: relative;
 }
 .container {
     position: relative;
@@ -33,7 +34,7 @@ html,body {
     padding-bottom: 10px;
 }
 .navbar a {
-    float: left;t
+    float: left;
     color: white;
     text-align: center;
     padding: 14px 16px;
@@ -115,6 +116,20 @@ footer {
 li {
     display: inline-block;
 }
+.divider {
+    margin-top: 50px;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+    margin-bottom: 50px;
+}
 .title-line {
     font-style: italic;
-}    
+    text-align: center;
+}  
+h1 {
+    margin-top: auto;
+    margin-bottom: auto;
+} 
+.text-content {
+    margin-top: 70px;
+}
