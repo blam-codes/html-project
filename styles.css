@@ -19,7 +19,6 @@ html,body {
     clear: both;
 }
 .column {
-    width: 25%;
     float: left;
 }
 .col-10 {
@@ -75,13 +74,17 @@ a {
 .topnav-right {
     float: right;
 }
+.hero-image {
+    background-image: url(./images/windmill.jpg);
+    background-size: cover;
+    height: 900px;
+}
 .hero-text {
     display: block;
     position: absolute;
     top: 30%;
     left: 20%;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: -180px; 
     font-size: 22px;
     width: 50%;
     color: lgiht grey;
@@ -89,13 +92,13 @@ a {
 }
 .btn {
     position: absolute;   
-    margin-left: auto;
+    margin-left: -180px;
     margin-right: auto;   
     padding: 12px 20px;
     border-radius: 1px;
     text-align: center;
     color: blue;
-    top: 40%;
+    top: 45%;
     font-size: 12px;
 }
 .col-2 {
@@ -113,24 +116,44 @@ footer {
     width: 20%;
     float: left;   
 }
-li {
-    display: inline-block;
-}
 .divider {
     margin-top: 50px;
     border-top: solid 1px;
     border-bottom: solid 1px;
     margin-bottom: 50px;
+    margin-left: 20px;
+}
+.divider a {
+    margin-left: 95px;
 }
 .title-line {
     font-style: italic;
     text-align: center;
     margin-left: 20px;
 }  
-h1 {
-    margin-top: auto;
-    margin-bottom: auto;
-} 
+
 .text-content {
     margin-top: 70px;
+}
+.security-section {
+    background-image: url(../images/blue-background.jpg);
+    background-size: 100%;
+    padding: 100px;
+    margin: 100px;
+    background-repeat: cover;
+}
+.spotlight {
+    background-color: navy;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+footer li a {
+    display: block;   
+}
+ul {
+    padding-left: 0px;
+}
+li {
+    list-style-type: none;
 }
