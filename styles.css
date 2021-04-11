@@ -1,0 +1,86 @@
+body{
+    font-family:BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji",;
+    color: #5a5a5a;
+}
+.container-fluid {
+    width: 100%;
+    padding: 0px;
+}
+ul {
+    list-style-type: none;
+}
+li {
+    display: inline-block;
+    margin-right: 5px;
+    color: white;
+}
+
+.form-navbar {
+    width: auto;
+    display: flex;
+}
+.btn {
+    display: inline-block;
+    line-height: 1.5; 
+    color:green;
+    text-align: center;
+    border: 1px solid;
+    font-size: 1 rem;
+    padding: .375rem .75rem;
+}
+.marketing {
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+.marketing col-7 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+
+
+}
+.btn-2 {
+    background-color: grey;
+    color: white;
+}
+a {
+    color: white;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.featurette h2 {
+    text-align: center;
+    margin-top: 150px;
+}
+.featurette p {
+    text-align: center;
+}
+@media only screen and (max-width: 767px) {
+    .marketing {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+}
+@media  (min-width: 992px) {
+    .col-lg-2 {
+        flex: 0 0 auto;
+        width: 50%;
+        margin-top: 50px;
+    }   
+}
+hr {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+a {
+    color: #007bff;
+}
