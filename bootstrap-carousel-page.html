@@ -49,10 +49,10 @@
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="./images/slider-img.gif" class="d-block w-100 img-carousel" alt="grey image">
-            <div class="carousel-caption  d-sm-block d-md-block d-lg-block d-xl-block">
-              <h5 class="slider-heading">Example Headline.</h5>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <button class="btn-carousel">Sign up today</button>
+            <div class="carousel-caption text-left d-sm-block d-md-block d-lg-block d-xl-block">
+              <h5 class="slider-heading" >Example Headline.</h5>
+              <p class="text-left">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <button class="btn-carousel btn-primary btn-lg text-left">Sign up today</button>
             </div>
           </div>
           <div class="carousel-item">
@@ -60,7 +60,7 @@
             <div class="carousel-caption d-sm-block d-md-block d-lg-block d-xl-block">
               <h5 class="slider-heading">Another example headline.</h5>
               <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <button class="btn-carousel">Learn more</button>
+              <button class="btn-carousel btn-primary btn-lg">Learn more</button>
             </div>
           </div>
           <div class="carousel-item">
@@ -68,7 +68,7 @@
             <div class="carousel-caption d-sm-bock d-md-block d-lg-block d-xl-block">
               <h5 class="slider-heading">One more for good measure.</h5>
               <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <button class="btn-carousel">Browse gallery</button>
+              <button class="btn-carousel btn-primary btn-lg">Browse gallery</button>
             </div>
           </div>
         </div>
@@ -81,8 +81,9 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-      <div class="row">
-        <div class="col-lg-3 col-sm-12 marketing">                   
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-sm-12 marketing">                   
             <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
             <h2>Heading</h2>
             <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
@@ -94,43 +95,50 @@
             <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
             <button class="btn-mkt">View Details</button>
           </div>
-          <div class="col-lg-3 
-          col-sm-12 marketing">                 
+          <div class="col-lg-3 col-sm-12 marketing">                 
               <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
               <h2>Heading</h2>
               <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
               <button class="btn-mkt">View Details</button>
-            </div>
           </div>
-      </div>
+        </div>
+      </div>  
       <hr>
-      <div class="row">
-        <div class="col-lg-2 col-sm-12 featurette">
-          <h2>First featurette heading. It'll blow your mind.</h2>
-          <p>Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-2 col-sm-12 featurette">
+            <h2>First featurette heading.
+              <span class="tex-muted">It'll blow your mind.</span>
+            </h2>
+            <p>Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          </div>
+          <div class="col-lg-2 col-sm-12 featurette">
+            <img src="./images/img-place-holder.svg" alt="picture place holder">
+          </div>
         </div>
-        <div class="col-lg-2 col-sm-12f featurette">
-          <img src="./images/img-place-holder.svg" alt="picture place holder">
+        <div class="row">
+          <div class="col-lg-2 col-sm-12 order-2-md featurette flex-item">
+            <img src="./images/img-place-holder.svg" alt="picture place holder">
+          </div>
+          <div id="element1" class="col-lg-2 col-sm-12 order-1-md featurette">
+            <h2>Oh yeah, it's that good.
+              <span class="tex-muted">See for yourself.</span> 
+            </h2>
+            <p>Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          </div>                    
+          </div>            
+        <div class="row">
+          <div class="col-lg-2 col-sm-12 featurette">
+            <h2>And lastly, this one. 
+              <span class="text-muted">Checkmate.</span>
+            </h2>
+            <p>Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          </div>
+          <div class="col-lg-2 col-sm-12">
+            <img src="./images/img-place-holder.svg" alt="picture place holder">
+          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-2 col-sm-12 order-2-md featurette flex-item">
-          <img src="./images/img-place-holder.svg" alt="picture place holder">
-        </div>
-        <div id="element1" class="col-lg-2 col-sm-12 order-1-md featurette">
-          <h2>Oh yeah, it's that good. See for yourself.</h2>
-          <p>Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>                    
-        </div>            
-      <div class="row">
-        <div class="col-lg-2 col-sm-12 featurette">
-          <h2>And lastly, this one. Checkmate.</h2>
-          <p>Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-        <div class="col-lg-2 col-sm-12">
-          <img src="./images/img-place-holder.svg" alt="picture place holder">
-        </div>
-      </div>
+      </div>          
       <hr>
       <div class="row">
         <div class="col">

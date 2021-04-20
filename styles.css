@@ -44,6 +44,9 @@ ul {
     font-size: 2.5rem;
     color: inherit;
 }
+.carousel-caption p {
+    margin-bottom: 20px;
+}
 .marketing {
     margin-top: 50px;
     text-align: center;
@@ -64,11 +67,9 @@ ul {
     flex-wrap: wrap;
 }
 .featurette h2 {
-    text-align: center;
+    font-weight: 400;
     margin-top: 150px;
-}
-.featurette p {
-    text-align: center;
+    font-size: 50px 
 }
 .float-left {
     float: left;
@@ -121,4 +122,10 @@ order: 1
 }
 .carousel-caption {
     position: absolute;
+}
+.text-muted {
+    color: #6c757d;
+}
+.text-left {
+    text-align: left !important;
 }
