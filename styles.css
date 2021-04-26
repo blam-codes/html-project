@@ -90,6 +90,7 @@ ul {
 @media (max-width: 760px) {
     .featuretee {
         float: none;
+    }
 }
 @media (min-width: 768px) {
     .foot-nav-item a {
@@ -106,11 +107,7 @@ a {
     text-decoration: none;
 }
 .footer li {
-    color: #5a5a5a
-}
-order: 1
-.flex-item {
-    order: 2;
+    color: #5a5a5a;
 }
 .carousel-item {
     height: 400px;
@@ -132,4 +129,7 @@ order: 1
 .img-fluid {
    max-width: 100%;
    height: auto;
+}
+.footer-bottom {
+    margin-bottom: 1rem;
 }
