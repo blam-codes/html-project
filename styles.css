@@ -1,1 +1,39 @@
-styles.css
+.nav-item-position {
+    float: right;
+}
+.price-heading {
+    max-width: 700px;
+}
+.list-item {
+    list-style: none;
+    padding-left: 0px;
+}
+.footer-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.container {
+    max-width: 960px;
+}
+footer li a {
+    text-decoration: none;
+}
+.nav-position {
+    float: right;
+}
+nav a  {
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+}
+.btn-price-plan-pro {
+    background-color: blue;
+    color: white;
+}
+.btn-price-plan-enterprise {
+    background-color: blue;
+    color: white;
+}
