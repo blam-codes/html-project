@@ -6,3 +6,6 @@ styles.css
     background-image: url ('./images/ocean.jpg');
     background-repeat: no-repeat;
 }
+.text-align {
+    text-align: center;
+}
