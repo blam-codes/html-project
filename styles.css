@@ -1,6 +1,6 @@
 styles.css
-.svg {
-    overflow: hidden;
+img {
+    display: inline-block;
 }
 .hero {
     background-image: url ('./images/ocean.jpg');
@@ -8,4 +8,30 @@ styles.css
 }
 .text-align {
     text-align: center;
+}
+@media (min-width: 1200px) {
+    .container-xl, .container-lg {
+        max-width: 1140px;
+    }
+}
+.container {
+    padding-right: auto;
+    padding-left: auto;
+}  
+.text-center {
+    text-align: center;
+}
+.testimonials {
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+}
+.testimonial-item {
+    max-width: 18rem;
+}
+.container hero {
+background-image: url('./images/ocean.jpg');
+  background-size: cover;
+}
+img {
+    display: inline-block;
 }
