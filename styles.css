@@ -1,10 +1,11 @@
-styles.css
 img {
     display: inline-block;
 }
 .hero {
-    background-image: url ('./images/ocean.jpg');
+    background-image: url('./images/ocean.jpg');
     background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
 }
 .text-align {
     text-align: center;
@@ -28,10 +29,20 @@ img {
 .testimonial-item {
     max-width: 18rem;
 }
-.container hero {
-background-image: url('./images/ocean.jpg');
-  background-size: cover;
-}
+
 img {
+    display: inline-block;
+}
+.container .features-section {
+    background-color: #f8f9fa;
+}
+.showcase {
+    width: 100%;
+}
+.show-case img {
+    min-height: 30rem;
+    background-size: cover;
+}
+.list-inline-item {
     display: inline-block;
 }
