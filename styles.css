@@ -46,3 +46,15 @@ img {
 .list-inline-item {
     display: inline-block;
 }
+.hero-2 {
+    background-image: url('./images/ocean.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+}
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -5px;
+    margin-left: -5px;
+}
