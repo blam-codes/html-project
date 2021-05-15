@@ -1,0 +1,59 @@
+.nav-item-position {
+    float: right;
+}
+.price-heading {
+    max-width: 700px;
+}
+.list-item {
+    list-style: none;
+    padding-left: 0px;
+}
+.footer-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.container {
+    max-width: 960px;
+}
+footer li a {
+    text-decoration: none;
+}
+.nav-position {
+    float: right;
+}
+nav a  {
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+}
+.btn-price-plan-pro {
+    background-color: blue;
+    color: white;
+}
+.btn-price-plan-enterprise {
+    background-color: blue;
+    color: white;
+}
+.position-display {
+    display: inline-block;
+}
+.box-shadow {
+    box-shadow: 0 0.25rem 0.75rem rgba(0,0,0,5%);
+}
+.text-align {
+    text-align: center;
+}
+.card-header {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0px;
+    background-color: rgba(0,0,0,.03);
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+.card-deck {
+    display: flex;
+    flex-direction: column;
+
+}
