@@ -1,0 +1,26 @@
+.banner {
+    background-color: rgb(245, 227, 231);
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    font-size: 11px;
+}
+ul {
+    list-style-type: none;
+}
+li {
+    display: inline-block;
+    margin-right: 5px;
+}
+.text-align {
+    text-align: center;
+}
+.position {
+    float: right;
+    margin-right: 10px;
+}
+nav ul li:nth-child(3) {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
