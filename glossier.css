@@ -1,3 +1,6 @@
+body {
+font-family: 'Raleway', sans-serif;
+}
 .banner {
     background-color: rgb(245, 227, 231);
     text-align: center;   
@@ -52,3 +55,18 @@ svg {
     justify-content: space-between;
 
 }
+@media screen and (max-width: 768px) {
+    .product-categories {
+        overflow-x: auto;
+        white-space: nowrap;        
+   }    
+}
+.container skin-care-section {
+    display: flex;
+}
+@media (max-width:758px) {
+    .second-care-description {
+    .flex-item-3 {
+      order: 1;
+    }
+  
