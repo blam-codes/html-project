@@ -61,12 +61,18 @@ svg {
         white-space: nowrap;        
    }    
 }
-.container skin-care-section {
-    display: flex;
-}
-@media (max-width:758px) {
-    .second-care-description {
+@media (max-width:768x) {
     .flex-item-3 {
       order: 1;
+      margin-left: initial;
     }
+  }
+.skin-care-description {
+    display: flex;
+    justify-content: space-between;
+}
+.flex-item-1 flex-item-2 flex-item-3 {
+    margin-left: 30px;
+}
+
   
