@@ -3,10 +3,18 @@
     flex-direction: column,
 }
 
-nav {
+.navigation {
     background-color: red;
 }
 
 ul {
     list-style-type: none;
+}
+
+.section{
+    display: flex;
+}
+
+.box {
+    display: border 1px black solid;
 }
