@@ -1,0 +1,11 @@
+.site {
+    display: flex;
+}
+
+.navigation {
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+}
