@@ -1,7 +1,13 @@
+.main {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
 .site {
     display: flex;
     flex-direction: column;
     width: 90%;
+    max-width: 800px;
 }
 
 .navigation {
