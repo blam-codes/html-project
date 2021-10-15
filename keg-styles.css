@@ -1,17 +1,32 @@
 .site {
     display: flex;
     flex-direction: column;
+    max-width: 1500px;
+    background-color: black;
+    font: white;
 }
 
 .navigation {
     display: flex;
     justify-content: space-between;
-}
-
-ul {
     list-style-type: none;
 }
 
 .lg-img {
     width: 100%;
+}
+
+.menu-category {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.app-menu {
+    display: flex;
+}
+
+h4 {
+    text-transform: uppercase;
+    font: white;  
 }
