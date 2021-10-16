@@ -25,8 +25,10 @@
                 <div class="section-1-right">
                     <h2>Title</h2>
                     <p>Some Text Down Here</p>
-                    <button>Button</button>
-                    <button class="spacing-left">Button</button>
+                    <div>
+                        <button>Button</button>
+                        <button class="btn-section-1">Button</button>
+                    </div>
                 </div>
             </div>
             <div class="section-2">
@@ -72,10 +74,13 @@
                         <li class="footer-links"><a href="#">Link 4</a></li> 
                     </ul> 
                 </div>
-                <div>
-                    <button class="spacing-bottom btn-3">Email</button>
-                    <button>Subscribe</button>
-                </div>                         
+                <form class="footer-list">
+                    <div class="form-info">
+                        <input type="text" id="email" placeholder="Email">
+                        <br>
+                        <input type="subscribe" id="subscribe" placeholder="Subscribe" class="spacing-top">  
+                    </div>                  
+                </form>                         
             </footer>
         </div>
     </div>
