@@ -99,16 +99,20 @@ footer {
 }
 
 input {
-    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .form-info {
     display: flex;
     flex-direction: column;
-}
-
-.spacing-top {
-    margin-top: -10px;
+    align-items: center;
+    margin-top: 60px;
 }
 
 input {
