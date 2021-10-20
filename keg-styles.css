@@ -2,8 +2,6 @@
     display: flex;
     flex-direction: column;
     max-width: 1500px;
-    background-color: black;
-    font: white;
 }
 
 .navigation {
@@ -22,11 +20,28 @@
     list-style-type: none;
 }
 
-.app-menu {
-    display: flex;
+a:link {
+    text-decoration: none;
 }
 
-h4 {
-    text-transform: uppercase;
-    font: white;  
+.nutrition-info {
+    display: flex;
+    justify-content: center;
+}
+
+.page_main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.salads-menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
 }
