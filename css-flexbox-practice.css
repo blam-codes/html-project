@@ -75,14 +75,9 @@
     margin-left: 30px;
 }
 
-footer {
+.footer-content {
     display: flex;
     justify-content: space-between;
-}
-
-.footer-list {
-    display: flex;
-    flex-direction: column;
 }
 
 .footer-links {
@@ -98,8 +93,9 @@ footer {
     margin-left: 20px;
 }
 
-input {
+.input-spacing {
     margin-bottom: 30px;
+    display: block;
 }
 
 .form {
@@ -113,8 +109,4 @@ input {
     flex-direction: column;
     align-items: center;
     margin-top: 60px;
-}
-
-input {
-    display: block;
 }
