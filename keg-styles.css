@@ -1,7 +1,10 @@
+body {
+    margin: none;
+}
 .site {
     display: flex;
     flex-direction: column;
-    max-width: 1500px;
+    max-width: 1200px;   
 }
 
 .navigation {
@@ -10,7 +13,7 @@
     list-style-type: none;
 }
 
-.lg-img {
+img {
     width: 100%;
 }
 
@@ -44,4 +47,20 @@ a:link {
 .box {
     display: flex;
     justify-content: space-between;
+}
+
+accompaniment-left {
+    display: flex;
+    justify-content: center;
+}
+
+.ad-banner {
+    display: flex;
+    justify-content: center;
+    background-color: red;
+    width: 100%;
+}
+
+.social-icon {
+    list-style-type: none;
 }
