@@ -64,3 +64,17 @@ accompaniment-left {
 .social-icon {
     list-style-type: none;
 }
+
+.footer-list {
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+    list-style-type: none;
+}
+
+.footer-list-right {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    list-style-type: none;
+}
