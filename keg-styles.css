@@ -74,7 +74,18 @@ accompaniment-left {
 
 .footer-list-right {
     display: flex;
-    flex-direction: column;
-    width: 75%;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.footer-legal {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.footer-items {
+    display: flex;
+    justify-content: space-between;
     list-style-type: none;
 }
