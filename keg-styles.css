@@ -1,0 +1,101 @@
+body {
+    margin: none;
+}
+.site {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;   
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+img {
+    width: 100%;
+}
+
+.menu-category {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.nutrition-info {
+    display: flex;
+    justify-content: center;
+}
+
+.page_main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.salads-menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+}
+
+accompaniment-left {
+    display: flex;
+    justify-content: center;
+}
+
+.ad-banner {
+    display: flex;
+    justify-content: center;
+    background-color: red;
+    width: 100%;
+}
+
+.footer-main {
+    display: flex;
+}
+
+.footer-left {
+    display: flex;
+    width: 35%;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.footer-right {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    width: 65%;
+    display: block;
+}
+
+.footer-legal {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    text-transform: uppercase;
+}
+
+.footer-item {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.list-item {
+    list-style-type: none;
+    display: inline-block;
+}
