@@ -61,31 +61,41 @@ accompaniment-left {
     width: 100%;
 }
 
-.social-icon {
-    list-style-type: none;
+.footer-main {
+    display: flex;
 }
 
-.footer-list {
+.footer-left {
     display: flex;
-    justify-content: space-between;
-    width: 25%;
-    list-style-type: none;
+    width: 35%;
+    flex-flow: row wrap;
+    align-items: center;
 }
 
-.footer-list-right {
+.footer-right {
     display: flex;
     list-style-type: none;
     justify-content: space-between;
+    width: 65%;
+    display: block;
 }
 
 .footer-legal {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     list-style-type: none;
+    text-transform: uppercase;
 }
 
-.footer-items {
+.footer-item {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.list-item {
+    list-style-type: none;
+    display: inline-block;
 }
