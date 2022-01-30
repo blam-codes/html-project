@@ -1,6 +1,17 @@
 body {
     margin: 0;
     padding: none;
+    background-color: black;
+}
+
+h1, h2, h3, h4, h5 {
+    color: white;
+}
+
+nav {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .nav-list {
@@ -10,4 +21,101 @@ body {
 
 ul {
     list-style-type: none;
+}
+
+li {
+    color: white;
+}
+
+.nav-logo {
+    width: 96px;
+    padding-top: 20px;
+}
+
+.red-balls {
+    width: 100%;
+    position: relative;
+    text-align: left;
+    color: white;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+}
+
+.brightsmith {
+    width: 100%;
+    position: relative;
+    text-align: left;
+    color: white;
+    background-color: forestgreen;
+    height: 500px;
+}
+
+.venn-life {
+    width: 100%;
+    position: relative;
+    text-align: left;
+    color: white;
+}
+
+.hvivo {
+    width: 100%;
+    position: relative;
+    text-align: left;
+    color: white;
+    background-color: orange;
+    height: 500px;
+}
+
+.craig-david {
+    width: 100%;
+    position: relative;
+    text-align: left;
+    color: white;
+}
+
+.footer-parent {
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 20px;
+}
+
+.footer-heading {
+    text-align: center;
+}
+
+.location {
+    display:flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    font: white;
+}
+
+.inquiries {
+    display: flex;
+    font: white;
+}
+
+.social {
+    display:flex;
+    font: white;
+
+}
+p {
+    color: white;
+}
+
+.small-heading {
+    color: #646464;
+    margin-bottom: 20px;
+}
+
+.social-icon {
+    color: transparent;
 }
