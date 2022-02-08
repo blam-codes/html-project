@@ -1,7 +1,6 @@
 body {
     margin: 0;
     padding: none;
-    background-color: black;
 }
 
 h1, h2, h3, h4, h5 {
@@ -12,11 +11,20 @@ nav {
     height: 40px;
     display: flex;
     justify-content: space-between;
+    background-color: black ;
+    height: 30vw;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .nav-list {
     display:flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+}
+
+.nav-link-item {
+    color: white;
+    margin-left: 20px;
 }
 
 ul {
@@ -30,6 +38,12 @@ li {
 .nav-logo {
     width: 96px;
     padding-top: 20px;
+}
+
+.main-content {
+    background-color: black;
+    padding-top: 11em;
+    padding-bottom: 3em;
 }
 
 .red-balls {
@@ -77,13 +91,16 @@ li {
     color: white;
 }
 
+footer {
+    width: 100%;
+}
 .footer-parent {
     display: flex;
     padding-top: 50px;
     padding-bottom: 25px;
     justify-content: space-between;
-    width: 80%;
     margin-left: 20px;
+    background-color: black;
 }
 
 .footer-heading {
@@ -104,9 +121,12 @@ li {
 
 .social {
     display:flex;
-    font: white;
-
 }
+
+.social-container {
+    display: block;
+}
+
 p {
     color: white;
 }
@@ -117,5 +137,26 @@ p {
 }
 
 .social-icon {
-    color: transparent;
+    width: 25px;
+    height: 25px;
 }
+
+.text-span {
+    display: inline-block;
+}
+
+.home-sub-title {
+    color:grey;
+}
+
+.pager-wrapper {
+    width: 100%;
+    object-fit: fill;
+    font: white;
+    background-color: black;
+}
+
+.copyright-info {
+    color: 646464;
+}
+
