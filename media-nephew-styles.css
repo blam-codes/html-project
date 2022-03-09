@@ -1,6 +1,10 @@
-body {
+html,body {
     margin: 0;
-    padding: none;
+    padding: 0;
+    overflow-x:hidden;
+    width: 100%;
+    height: 100%;
+    line-height: 1.4;
 }
 
 h1, h2, h3, h4, h5 {
@@ -8,42 +12,27 @@ h1, h2, h3, h4, h5 {
 }
 
 nav {
-    height: 40px;
+    height: 20vh;
     display: flex;
     justify-content: space-between;
-    background-color: black ;
-    height: 30vw;
     padding-top: 10px;
-    padding-bottom: 10px;
 }
 
-.nav-list {
-    display:flex;
-    justify-content: space-between;
-}
-
-.nav-link-item {
+.nav-link {
     color: white;
-    margin-left: 20px;
 }
 
 ul {
     list-style-type: none;
 }
 
-li {
+a {
     color: white;
 }
 
 .nav-logo {
     width: 96px;
     padding-top: 20px;
-}
-
-.main-content {
-    background-color: black;
-    padding-top: 11em;
-    padding-bottom: 3em;
 }
 
 .red-balls {
@@ -93,7 +82,9 @@ li {
 
 footer {
     width: 100%;
+    background-color: black;
 }
+
 .footer-parent {
     display: flex;
     padding-top: 50px;
@@ -105,6 +96,7 @@ footer {
 
 .footer-heading {
     text-align: center;
+    padding-top: 20px;
 }
 
 .location {
@@ -121,10 +113,12 @@ footer {
 
 .social {
     display:flex;
+    flex-direction: column;
 }
 
 .social-container {
-    display: block;
+    display: flex;
+    justify-content: space-between;
 }
 
 p {
@@ -147,12 +141,14 @@ p {
 
 .home-sub-title {
     color:grey;
+    text-align: center;
 }
 
 .pager-wrapper {
     width: 100%;
     object-fit: fill;
     font: white;
+    padding-bottom: 30px;
     background-color: black;
 }
 
@@ -160,3 +156,57 @@ p {
     color: 646464;
 }
 
+.marquee {
+    background-color: navy;
+    width: 100vw;
+    height: 50vh;
+    overflow: hidden;    
+}
+
+.marquee-content {
+    display: flex;
+    height: 100vw;
+    width: 60vw;
+    flex-shrink: 0;
+    animation: scrolling 10s linear infinite; 
+    white-space: nowrap;
+
+}
+
+.marquee-title {
+    display: block;
+    font: white;
+}
+
+@keyframes scrolling {
+    0% { transform: translateX(0);}
+    100% { transform: translateX(180vw);}
+}
+
+@media (max-width: 600px) {
+    .nav-link {
+        text-align: center;
+    }
+  }
+
+ @media (max-width: 600px) {
+      h1 {
+         text-align: center;
+         padding-left: 2rem;
+         padding-right: 2rem;
+     }
+ }
+ 
+ @media (max-width: 600px) {
+     h2 {
+         text-align: center;
+         padding-left: 1rem;
+         padding-right: 1rem;
+     }
+ }
+
+ @media (max-width: 600px) {
+     .footer-parent {
+        display: block;
+     }
+ }
