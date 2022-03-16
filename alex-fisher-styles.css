@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff5df;
+}
+
+.page-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation {
+    position: relative;
+    overflow: hidden;
+}
+
+.navigation #myLinks {
+    display: none;
+}
+
+.navigation a {
+    display: block;
+    color: #8a733e;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navigation a.icon {
+    background:black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.a:hover:after {
+    display: block;
+    border-bottom-color: #8a733e;
+}
