@@ -165,17 +165,17 @@ p {
 
 .marquee-content {
     display: flex;
-    height: 100vw;
+    height: 35vh;
     width: 60vw;
     flex-shrink: 0;
     animation: scrolling 10s linear infinite; 
     white-space: nowrap;
-
 }
 
 .marquee-title {
     display: block;
     font: white;
+    padding-left: 25px;
 }
 
 @keyframes scrolling {
