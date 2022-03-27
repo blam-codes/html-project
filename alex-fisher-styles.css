@@ -9,32 +9,37 @@ body {
     flex-direction: column;
 }
 
-.navigation {
-    position: relative;
-    overflow: hidden;
+#hamnav {
+    width: 100%;
 }
 
-.navigation #myLinks {
-    display: none;
+#hamitems {
+    display: flex;
 }
 
-.navigation a {
-    display: block;
+#hamitems  a {
+    flex-grow: 1;
+    flex-basis: 0;
     color: #8a733e;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    text-align: center;
 }
 
-.navigation a.icon {
+#hamitems a:hover {
     background:black;
-    display: block;
-    position: absolute;
-    right: 0;
-    top: 0;
 }
 
-.a:hover:after {
-    display: block;
-    border-bottom-color: #8a733e;
+#hamnav label, #hamburger {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    #hamitems a {
+        box-sizing: border-box;
+        display: block;
+        width: 100%;
+        border-top: 1px solid darkbrown;
+    }
 }
