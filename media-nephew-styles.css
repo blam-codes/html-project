@@ -1,0 +1,212 @@
+html,body {
+    margin: 0;
+    padding: 0;
+    overflow-x:hidden;
+    width: 100%;
+    height: 100%;
+    line-height: 1.4;
+}
+
+h1, h2, h3, h4, h5 {
+    color: white;
+}
+
+nav {
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.nav-link {
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: white;
+}
+
+.nav-logo {
+    width: 96px;
+    padding-top: 20px;
+}
+
+.red-balls {
+    width: 100%;
+    position: relative;
+    text-align: left;
+    color: white;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+}
+
+.brightsmith {
+    width: 100%;
+    position: relative;
+    text-align: left;
+    color: white;
+    background-color: forestgreen;
+    height: 500px;
+}
+
+.venn-life {
+    width: 100%;
+    position: relative;
+    text-align: left;
+    color: white;
+}
+
+.hvivo {
+    width: 100%;
+    position: relative;
+    text-align: left;
+    color: white;
+    background-color: orange;
+    height: 500px;
+}
+
+.craig-david {
+    width: 100%;
+    position: relative;
+    text-align: left;
+    color: white;
+}
+
+footer {
+    width: 100%;
+    background-color: black;
+}
+
+.footer-parent {
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    justify-content: space-between;
+    margin-left: 20px;
+    background-color: black;
+}
+
+.footer-heading {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.location {
+    display:flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    font: white;
+}
+
+.inquiries {
+    display: flex;
+    font: white;
+}
+
+.social {
+    display:flex;
+    flex-direction: column;
+}
+
+.social-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+p {
+    color: white;
+}
+
+.small-heading {
+    color: #646464;
+    margin-bottom: 20px;
+}
+
+.social-icon {
+    width: 25px;
+    height: 25px;
+}
+
+.text-span {
+    display: inline-block;
+}
+
+.home-sub-title {
+    color:grey;
+    text-align: center;
+}
+
+.pager-wrapper {
+    width: 100%;
+    object-fit: fill;
+    font: white;
+    padding-bottom: 30px;
+    background-color: black;
+}
+
+.copyright-info {
+    color: 646464;
+}
+
+.marquee {
+    background-color: navy;
+    width: 100vw;
+    height: 50vh;
+    overflow: hidden;    
+}
+
+.marquee-content {
+    display: flex;
+    height: 35vh;
+    width: 60vw;
+    flex-shrink: 0;
+    animation: scrolling 10s linear infinite; 
+    white-space: nowrap;
+}
+
+.marquee-title {
+    display: block;
+    font: white;
+    padding-left: 25px;
+}
+
+@keyframes scrolling {
+    0% { transform: translateX(0);}
+    100% { transform: translateX(180vw);}
+}
+
+@media (max-width: 600px) {
+    .nav-link {
+        text-align: center;
+    }
+  }
+
+ @media (max-width: 600px) {
+      h1 {
+         text-align: center;
+         padding-left: 2rem;
+         padding-right: 2rem;
+     }
+ }
+ 
+ @media (max-width: 600px) {
+     h2 {
+         text-align: center;
+         padding-left: 1rem;
+         padding-right: 1rem;
+     }
+ }
+
+ @media (max-width: 600px) {
+     .footer-parent {
+        display: block;
+     }
+ }
