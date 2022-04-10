@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #fff5df;
+    background-color:#fff5df ;
 }
 
 .page-wrapper {
@@ -43,3 +43,103 @@ body {
         border-top: 1px solid darkbrown;
     }
 }
+
+#hamnav label {
+    display: inline-block;
+    color: #8a733e;
+    font-size: 1.2em;
+    padding: 10px;
+}
+
+#hamitems { display: none;}
+#hamnav input:checked ~ #hamitems {display: block; }
+
+@media screen and (max-width:768px) {
+    #hamitems a {
+        width: 100%
+    }
+    #hamnav label {
+        display: inline-block;
+    }
+}
+
+.header-illustration {
+    background-image: url(../images/floral-section.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    overflow:hidden;
+}
+
+.my-work-section {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px black solid;
+}
+
+.my-work {
+    display: flex;
+    flex-direction: column;
+    align-self:center;
+    width: 90vw;
+    margin-top: 20px;
+}
+
+.work-example {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.intro {
+    flex-direction: column;
+    align-items: center;
+}
+.print-shop {
+    background-color: #8a733e;
+    background-image: url(https://uploads-ssl.webflow.com/5ffa251a4d19bf4da4d0153e/604c4fda4fc50c3519d16c4a_DSC01379_V2.png);
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+}
+
+.services {
+    flex-direction: column;
+    align-self: center;  
+}
+
+.services-title {
+    border-bottom: 2px solid black;
+}
+
+/*.slideshow-container {
+    max-width: 1000px;
+    height: 200px;
+    position: relative;
+    margin: auto;
+}
+/* Hide the image by default */
+.myslide {
+    display: none;
+}
+/*
+
+.fade-in {
+    animation-name: fade;
+    animation-duration: 1.5s;   
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+*/
+
+.btn {
+    border: black solid;
+    background-color: transparent;
+    
+}
+
+
+
