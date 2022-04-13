@@ -112,6 +112,20 @@ body {
     border-bottom: 2px solid black;
 }
 
+.service-type {
+    display:flex;
+    justify-content: space-between;
+}
+
+.service-subtitle {
+    display: block;
+    margin-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+
+.service-subtitle-end {
+    border-bottom: none;
+}
 /*.slideshow-container {
     max-width: 1000px;
     height: 200px;
