@@ -155,5 +155,10 @@ body {
     
 }
 
-
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 1px solid darkbrown;
+    border-bottom: 1px solid darkbrown;
+}
 
